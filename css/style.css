@@ -1,0 +1,49 @@
+@import url('../bootstrap/css/bootstrap.min.css');
+@import url('../FontAwesome/css/font-awesome.min.css');
+
+body{
+    background: url('../images/bg-login.jpeg');
+    background-size:cover;
+}
+
+.form{
+    background: #fff;
+    min-height:10px;
+    margin-top: 15%;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+.right-pane{
+    background-color:#202020;
+   min-height: 350px;
+    color: #fff;
+    -webkit-border-top-right-radius: 10px;
+       -moz-border-top-right-radius: 10px;
+            border-top-right-radius: 10px;
+     -webkit-border-bottom-right-radius: 10px;
+       -moz-border-bottom-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+.right-pane h1{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-top:5%;
+    font-size: 5em;
+}
+.right-pane h1 i{
+    font-size:2em;
+}
+.left-pane{
+    padding-top: 30px;
+    padding-left:7px;
+}
+.left-pane .form-control,.btn-flat{
+    height: 40px;
+    -webkit-border-radius: 0px; 
+       -moz-border-radius: 0px; 
+            border-radius: 0px; 
+}
+.left-pane figcaption{
+    color:#aaa;
+}
